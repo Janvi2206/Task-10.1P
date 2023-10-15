@@ -1,0 +1,42 @@
+.featured-articles {
+  padding: 40px 0;
+}
+
+.article-image {
+  width: 100%;
+  height: auto;
+}
+
+.section-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.articles-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.article {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.article-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.article-description {
+  font-size: 16px;
+}
+
+.see-all-button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
